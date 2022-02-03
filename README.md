@@ -171,7 +171,7 @@ public class Utility {
 
 ## Features and User Guide
 
-### Features
+### Features 
 
 - A friendly Paint Web App with a friendly UI that helps the user with some Hotkeys and Shortcuts.
 
