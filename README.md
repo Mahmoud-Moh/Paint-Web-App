@@ -39,7 +39,7 @@
 - To install packages, write "npm install" in the terminal for the
   front-end.
 
-- The `pom.xml` will do the package installation but if anything goes wrong, you can add [gson-2.8.9.jar](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.9), [java-json.jar](https://jar-download.com/artifacts/org.json), [openijfx-17.0.1](https://gluonhq.com/products/javafx/) packages for the backend.
+- The `pom.xml` will do the package installation for back-end but if anything goes wrong, you can add [gson-2.8.9.jar](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.9), [java-json.jar](https://jar-download.com/artifacts/org.json), [openijfx-17.0.1](https://gluonhq.com/products/javafx/) packages for the backend.
 
 - To run the front write in the terminal `ng serve`.
 
