@@ -106,7 +106,7 @@
 
 - Back-end receives shapes as a **string** and creates JSON objects with the same values in the string.
 
-```
+```java
 @RequestMapping(value = "/createShape/{type}/{id}", method = RequestMethod.POST, produces = "application/json; charset=utf-8")
 @ResponseBody
 public Result createShape(@RequestBody String inputData, @PathVariable String type, @PathVariable int id) throws JSONException {
