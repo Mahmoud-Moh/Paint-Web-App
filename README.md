@@ -116,7 +116,7 @@ public Result createShape(@RequestBody String inputData, @PathVariable String ty
 
 - Depending on the type of the shape sent in the API request (Circle, polygon, ....), it creates a **java** object with the same attributes of the given JSON object using function **castJson** in Utility class (Factory design pattern).
 
-```
+```java
 public class Utility {
     public static IShape castJson(JSONObject jsonObj, String type) {
         IShape shape = null;
